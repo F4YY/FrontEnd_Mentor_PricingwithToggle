@@ -1,0 +1,92 @@
+[
+    {
+        "gridarea":"basic",
+        "color_price":"var(--Dark-Grayish-Blue)",
+        "color_other":"var(--Grayish-Blue)",
+        "color_button":"#fff",
+        "bgcolor_button":"var(--Gradient)",
+        "bgcol":"#fff",
+        "bordrads":{
+            "desktop":{
+              "topleft" :"12px",
+              "topright" : "0",
+              "bottomright" : "0",
+              "bottomleft" :"12px"
+            },
+            "mobile":{
+              "topleft":"12px",
+              "topright":"12px",
+              "bottomright":"12px",
+              "bottomleft":"12px"
+            }
+          },
+        "padd_desktop":"12% 0 7%",
+        "padd_tablet":"12% 5% 7%",
+        "level":"Basic",
+        "monthlyprice":"19.99",
+        "annualprice":"199.99",
+        "capacity":"500 GB Storage",
+        "userallowed":"2 Users Allowed",
+        "sendupto":"Send up to 3 GB"
+    },
+    {
+        "gridarea":"prof",
+        "color_price":"#fff",
+        "color_other":"#fff",
+        "color_button":"hsl(237, 63%, 64%)",
+        "bgcolor_button":"#fff",
+        "bgcol":"var(--Gradient)",
+        "bordrads":{
+            "desktop":{
+              "topleft" :"12px",
+              "topright" : "12px",
+              "bottomright" : "12px",
+              "bottomleft" :"12px"
+            },
+            "mobile":{
+              "topleft":"12px",
+              "topright":"12px",
+              "bottomright":"12px",
+              "bottomleft":"12px"
+            }
+          },
+        "padd_desktop":"15.2% 0 2%",
+        "padd_tablet":"16.2% 5% 7%",
+        "level":"Professional",
+        "monthlyprice":"24.99",
+        "annualprice":"249.99",
+        "capacity":"1 TB Storage",
+        "userallowed":"5 Users Allowed",
+        "sendupto":"Send up to 10 GB"
+    },
+    {
+        "gridarea":"master",
+        "color_price":"var(--Dark-Grayish-Blue)",
+        "color_other":"var(--Grayish-Blue)",
+        "color_button":"#fff",
+        "bgcolor_button":"var(--Gradient)",
+        "bgcol":"#fff",
+        "bordrads":{
+            "desktop":{
+              "topleft" :"0",
+              "topright" : "12px",
+              "bottomright" : "12px",
+              "bottomleft" :"0"
+            },
+            "mobile":{
+              "topleft":"12px",
+              "topright":"12px",
+              "bottomright":"12px",
+              "bottomleft":"12px"
+            }
+          },
+        "padd_desktop":"10% 0 7%",
+        "padd_tablet":"10% 5% 7%",
+        "level":"Master",
+        "monthlyprice":"39.99",
+        "annualprice":"399.99",
+        "capacity":"2 TB Storage",
+        "userallowed":"10 Users Allowed",
+        "sendupto":"Send up to 20 GB"
+    }
+]
