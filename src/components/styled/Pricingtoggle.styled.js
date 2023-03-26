@@ -117,6 +117,12 @@ export const Pricecard = styled(Vstack)`
             font-size:3.4em;
         }
     }
+    @media screen and (max-width:600px){
+        border-top-left-radius: ${(bordrad)=>bordrad.$bordrads.mobile.topleft};
+        border-top-right-radius: ${(bordrad)=>bordrad.$bordrads.mobile.topright};
+        border-bottom-left-radius: ${(bordrad)=>bordrad.$bordrads.mobile.bottomleft};
+        border-bottom-right-radius: ${(bordrad)=>bordrad.$bordrads.mobile.bottomright};
+    }
 `
 export const LearnButton = styled.button`
     width: auto;
